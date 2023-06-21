@@ -1,4 +1,5 @@
-# Synapme X
+# vite-tailwindcss-typescript-portfolio
+
 
 ## Prerequisites
 
