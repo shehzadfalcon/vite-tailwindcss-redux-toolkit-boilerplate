@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -msbox-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  /* background-color: #f6f7fd; */
+}
+
+#root {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100%;
+  height: 100%;
+}
+
+/* custom scrollbar  */
+/* width */
+.scrollbar::-webkit-scrollbar,
+#scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track,
+#scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb,
+#scrollbar::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 40px;
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover,
+#scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* // custom input checkbox and radio start */
+input[type="radio"],
+input[type="checkbox"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: currentColor;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  border-color: transparent;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  -webkit-user-select: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+/* Button */
+button:disabled {
+  background: #e5e7eb;
+  border-color: #e5e7eb;
+}

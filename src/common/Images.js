@@ -1,0 +1,24 @@
+export { default as avatar } from "images/avatar.png";
+export { default as logo } from "images/logo.png";
+export { default as brain } from "images/brain.png";
+export { default as robotic } from "images/robotic.png";
+export { default as product_1 } from "images/product_1.png";
+export { default as product_2 } from "images/product_2.png";
+export { default as product_3 } from "images/product_3.png";
+export { default as team_1 } from "images/team_1.png";
+export { default as team_2 } from "images/team_2.png";
+export { default as team_3 } from "images/team_3.png";
+export { default as team_4 } from "images/team_4.png";
+export { default as team_5 } from "images/team_5.png";
+export { default as team_6 } from "images/team_6.png";
+export { default as team_7 } from "images/team_7.png";
+export { default as team_8 } from "images/team_8.png";
+export { default as team_9 } from "images/team_9.png";
+
+export { default as partner_1 } from "images/partner/partner_1.png";
+export { default as partner_2 } from "images/partner/partner_2.png";
+export { default as partner_3 } from "images/partner/partner_3.png";
+export { default as partner_4 } from "images/partner/partner_4.png";
+export { default as partner_5 } from "images/partner/partner_5.png";
+export { default as lines } from "images/lines.png";
+export { default as left_lines } from "images/left_lines.png";

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: gilroy-bold;
+  src: url("../assets/fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: gilroy-medium;
+  src: url("../assets/fonts/Gilroy-Medium.ttf");
+}
+
+.font-plus {
+  font-family: "Quicksand", sans-serif;
+}
+* {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: gilroy-bold;
+  font-style: normal;
+}
+
+.gilroy-medium {
+  font-family: gilroy-medium;
+}
+.gilroy-bold {
+  font-family: gilroy-bold;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+}
